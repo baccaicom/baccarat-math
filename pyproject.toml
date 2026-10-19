@@ -1,0 +1,18 @@
+[project]
+name = "baccarat-math"
+version = "1.0.0"
+description = "Exact 8-deck baccarat probabilities, risk of ruin, staking systems and multiple-comparison tests"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["numpy>=1.24"]
+
+[project.urls]
+Homepage = "https://edgelv.com/en/tools/"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
