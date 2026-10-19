@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 Exact enumeration of an 8-deck baccarat coup.
 
@@ -145,3 +148,6 @@ if __name__ == "__main__":  # pragma: no cover
     print("\nrule firing frequency:")
     for k, v in sorted(r.rule_fired.items(), key=lambda kv: -kv[1]):
         print(f"  {k:<42} {pc(v)}")
+
+    from . import print_source_notice
+    print_source_notice()

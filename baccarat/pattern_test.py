@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 What scanning for "patterns" in the road actually finds.
 
@@ -128,3 +131,6 @@ if __name__ == "__main__":  # pragma: no cover
               f"p={f.p_raw:.4f}")
     print("\n  There is no predictable structure in this data. Every hit above"
           "\n  is a false positive, which is exactly the point.")
+
+    from . import print_source_notice
+    print_source_notice()

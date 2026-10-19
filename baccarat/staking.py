@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 Staking systems (Martingale, D'Alembert, 1-3-2-4, flat) by Monte Carlo.
 
@@ -147,3 +150,6 @@ if __name__ == "__main__":  # pragma: no cover
     for s in SYSTEMS:
         m, sd = bootstrap_se(s)
         print(f"  {s:<12}{m * 100:6.3f}% +/- {sd * 100:.3f}")
+
+    from . import print_source_notice
+    print_source_notice()

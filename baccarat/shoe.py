@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 Deal real 8-deck shoes under the full drawing rules.
 

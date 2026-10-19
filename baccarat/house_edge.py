@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 Expected value of every baccarat bet, from the exact enumeration.
 
@@ -74,3 +77,6 @@ if __name__ == "__main__":  # pragma: no cover
               f"{b.house_edge * 100:>8.3f}%{pd:>14}"
               f"{hourly_cost(b, 100, 70):>11.0f}")
     print("\n* " + bets[2].note)
+
+    from . import print_source_notice
+    print_source_notice()

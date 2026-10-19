@@ -1,3 +1,6 @@
+# baccarat-math - exact 8-deck baccarat mathematics
+# Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+# Released under the MIT License. Keep this notice in redistributions.
 """
 Risk of ruin for flat betting, computed exactly.
 
@@ -91,3 +94,6 @@ if __name__ == "__main__":  # pragma: no cover
         res = risk_of_ruin(100, h)
         print(f"  {h:>5} hands: {res.finished_ahead * 100:.1f}%")
     print("\nA shoe gives ~74 decided hands, so 500 hands is about seven shoes.")
+
+    from . import print_source_notice
+    print_source_notice()
