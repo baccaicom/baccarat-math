@@ -1,5 +1,7 @@
 # baccarat-math
 
+By [EdgeLV](https://edgelv.com) &middot; MIT licensed &middot; contact [@bacc_ai](https://t.me/bacc_ai) on Telegram
+
 Exact probabilities for 8-deck baccarat, plus the three things people
 usually get wrong about them: risk of ruin, staking systems, and
 "patterns" in the road.
@@ -171,6 +173,16 @@ repository is a betting strategy, and the four modules exist to verify the
 same fact from four angles. If a number here disagrees with something you
 have read elsewhere, the code is right here — check it.
 
-## License
+## License and attribution
 
-MIT. See [LICENSE](LICENSE).
+MIT &mdash; see [LICENSE](LICENSE). You may use, modify and redistribute
+this code, including commercially. The one condition the licence places on
+you is that the notice below travels with it.
+
+```
+baccarat-math - exact 8-deck baccarat mathematics
+Copyright (c) 2026 EdgeLV | https://edgelv.com | Telegram @bacc_ai
+```
+
+If you quote a figure from this repository in a paper, post or product,
+a link back to [edgelv.com](https://edgelv.com) is appreciated.

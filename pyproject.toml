@@ -4,11 +4,17 @@ version = "1.0.0"
 description = "Exact 8-deck baccarat probabilities, risk of ruin, staking systems and multiple-comparison tests"
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [{ name = "EdgeLV" }]
+maintainers = [{ name = "EdgeLV" }]
+keywords = ["baccarat", "probability", "monte-carlo", "statistics", "gambling-math"]
 license = { file = "LICENSE" }
 dependencies = ["numpy>=1.24"]
 
 [project.urls]
-Homepage = "https://edgelv.com/en/tools/"
+Homepage = "https://edgelv.com"
+Tools = "https://edgelv.com/en/tools/"
+Source = "https://github.com/baccaicom/baccarat-math"
+Contact = "https://t.me/bacc_ai"
 
 [build-system]
 requires = ["setuptools>=68"]
